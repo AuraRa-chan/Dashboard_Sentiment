@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from wordcloud import WordCloud
+import plotly.express as px
 import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
 from sklearn.metrics import confusion_matrix
